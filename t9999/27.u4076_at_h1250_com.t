@@ -23,3 +23,4 @@ close $outfile;
 my $ref_out_file = "ref_9999_out/$test_output_file";
 my $diff_out = `diff -s  $test_output_file  $ref_out_file`;
 like( $diff_out, qr{Files.*are.identical.*}, "Compare program o/p to ref o/p for $test_uid");
+`rm $test_output_file`;
