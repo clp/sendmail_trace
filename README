@@ -18,4 +18,13 @@ too large, the program might exhaust memory when processing a
 large log file.
 
 
+The input data file is maillog.mx.
+The initial release provides an abbreviated 9999-line input file.
+
+The test scripts in t9999/ rely on reference output files,
+stored in the ref_9999_out/ subdir.
+
+Execute the tests using prove:
+  prove -vr t9999/
+
 
