@@ -14,7 +14,7 @@ $test_out =~ tr/\n\n//s;  # Remove blank lines.
 
 my $test_output_file = "t.22.out";
 my $outfile;
-open my $outfile, ">", $test_output_file  or die "Cannot open [$outfile]."; 
+open $outfile, ">", $test_output_file  or die "Cannot open [$outfile]."; 
 print { $outfile } $test_out;
 close $outfile;
 
