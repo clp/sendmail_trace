@@ -1,0 +1,21 @@
+sendmail_trace.pl  version 0.10
+===============================
+
+The sendmail_trace application reads a sendmail log file and
+collects all lines that contain the email address specified by
+the user on the command line.  It also collects any line with
+a queue ID that matches any qid found in the line(s) with the
+desired address; and prints all lines with the same qid
+together.
+
+The program reads the input sendmail log file in one pass.
+
+It uses a FIFO buffer to hold a number of lines that have not
+yet been matched to the email address of interest.  The size
+of the buffer is set to 100 lines.  If it is too small, some
+related lines with matching qid's might not be collected.  If
+too large, the program might exhaust memory when processing a
+large log file.
+
+
+
