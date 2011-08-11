@@ -3,9 +3,13 @@
 use strict;
 use warnings;
 
+our $VERSION = '0.10';
+
 # Init
 $\ = "\n";
-my %uid;   # HoA; arrays hold refs to lines for specified user.
+# Hash of arrays; the arrays hold refs to lines in the log file
+# that are related to the specified email address to trace.
+my %uid; 
 my @buffer;
 
 # Declare subs 
