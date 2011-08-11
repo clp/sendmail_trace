@@ -1,0 +1,8 @@
+
+Jan  5 00:13:49 a.mx.h2.net sm-mta[12610]: jB88DbXL012610: Milter: to=<u1669@h2.net>, reject=550 5.7.1 Recipient declines mail from a_host (DUL), see http://www.mail-abuse.com/cgi-bin/lookup?ip_address=10.11.12.13 
+****Jan  5 00:14:19 a.mx.example.net sm-mta[12610]: jB88DbXL012610: lost input channel from a_host to MTA after rcpt 
+****Jan  5 00:14:19 a.mx.example.net sm-mta[12610]: jB88DbXL012610: from=<u3856@h31.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=relay_id 
+Jan  5 00:13:49 a.mx.h2.net sm-mta[12606]: jB88Dbg7012606: Milter: to=<u1669@h2.net>, reject=550 5.7.1 Recipient declines email from a_host <spamhaus-xbl>, Ref: http://www.spamhaus.org/query/bl?ip=10.11.12.13 
+****Jan  5 00:13:50 a.mx.example.net sm-mta[12606]: jB88Dbg7012606: lost input channel from a_host to MTA after rcpt 
+****Jan  5 00:13:50 a.mx.example.net sm-mta[12606]: jB88Dbg7012606: from=<u1721@h31.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=relay_id 
+

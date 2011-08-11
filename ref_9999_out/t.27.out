@@ -1,0 +1,3 @@
+
+Jan  5 00:14:22 d.mx.example.net sendmail[32546]: jB79fmj3026947: to=<u4076@h1250.com>, delay=22:31:22, xdelay=00:00:00, mailer=esmtp, pri=12001691, relay=relay_id dsn=4.0.0, stat=Deferred: Connection timed out with somewhereelse.com. 
+
