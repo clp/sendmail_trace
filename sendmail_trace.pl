@@ -149,7 +149,7 @@ sub usage()
 {
     print "\nUsage:\n$0 <email address>";
     print "    Enter one argument only: a full email address,";
-    print "    (eg, u1\@h2.net or u9\@h10.com).";
+    print "    (eg, u1\@h2.net or u13\@h2.net or u13\@h362.com).";
     print "    The program prints all lines for that addr and";
     print "    for any related messages (having the same qid)";
     print "    found in the sendmail log file.";
